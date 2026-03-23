@@ -1,77 +1,58 @@
-🌟 Luminaze
+# Luminaze
 
-Luminaze is a 2D puzzle-based maze game where precision, timing, and strategy come together. Navigate a dynamic ball through challenging levels filled with obstacles, transformations, and clever mechanics.
+A 2D puzzle maze game built in Unity where you navigate a ball through
+increasingly difficult levels. Each level introduces new mechanics — shrinking
+to fit through tight gaps, avoiding moving enemies, collecting keys to unlock
+doors, and reaching the exit.
 
-🎮 Game Overview
+## Gameplay
 
-Luminaze is designed to challenge players with increasingly difficult maze levels. Each level introduces new mechanics that require creative thinking and careful movement.
+| Action | Key |
+|---|---|
+| Move Up | W / ↑ |
+| Move Down | S / ↓ |
+| Move Left | A / ← |
+| Move Right | D / → |
 
-The game features:
+## Features
 
-Smooth ball movement mechanics
-Size-changing abilities to solve puzzles
-Interactive obstacles and enemies
-Key-based progression system
-Custom-designed pixel UI and assets
-✨ Features
-🧩 Puzzle Mechanics
-Navigate through tight mazes and tricky paths
-Use logic and timing to solve each level
-🔄 Size Transformation
-Special boxes change the size of the player
-Shrink to pass narrow paths and expand back to normal
-👾 Obstacles & Enemies
-Moving monsters that block your path
-Interactive elements that control obstacles
-🔑 Progression System
-Collect keys to unlock doors
-Complete levels to unlock new ones
-🎨 Custom Design
-Fully pixel-crafted UI and assets
-Dungeon-style theme for a consistent aesthetic
-🔊 Effects & Feedback
-Smooth transitions between scenes
-Sound effects for interactions and winning
+- **Size transformation** — special boxes shrink or expand the ball to solve
+  path puzzles
+- **Enemies & obstacles** — moving monsters and interactive elements that block
+  your way
+- **Key-based progression** — collect a key to unlock the exit, finish a level
+  to unlock the next
+- **Pixel art UI** — fully custom assets with a consistent dungeon aesthetic
+- **Sound & transitions** — audio feedback and smooth scene changes
 
-🕹️ Controls
-Action	Key
-Move Up	W / ↑
-Move Down	S / ↓
-Move Left	A / ←
-Move Right	D / →
+## Structure
 
-🗺️ Game Structure
-Main Menu → Start the game
-Level Selection → Choose unlocked levels
-Levels → Solve puzzles and reach the goal
-Progression → Unlock new levels by completing previous ones
-🚀 How to Play
-Start the game from the main menu
-Select an unlocked level
-Navigate the ball through the maze
-Avoid obstacles and monsters
-Collect the key and reach the exit
-🛠️ Built With
-Unity (2D Game Engine)
-C# for scripting
-Custom pixel-based asset design
+Main Menu → Level Select → Level → (repeat)
 
-📦 Installation
-Clone the repository:
-git clone https://github.com/your-username/luminaze.git
-Open the project in Unity
-Load the main scene
-Click Play
+Completed levels unlock the next. Locked levels stay locked until you've
+cleared the one before it.
 
-🤝 Contributing
+## Getting Started
+```bash
+git clone https://github.com/MohsinbinAlthaf/Luminaze
+```
 
-Contributions are welcome!
-Feel free to fork the repo and submit a pull request.
+Open the project in Unity, load the main scene, and hit Play.
 
-📄 License
+## Built With
 
-This project is open-source. You can add your license here (MIT, GPL, etc.)
+- Unity (2D)
+- C#
+- Custom pixel art assets
 
-💡 Inspiration
+## Planned
 
-Luminaze was built to explore creative puzzle mechanics and deliver a fun yet challenging maze experience using minimalistic pixel design.
+- More levels with harder layouts
+- Smarter enemy behavior
+- Power-ups
+- Mobile support
+- Leaderboard
+
+## License
+
+Open-source — add your preferred license here (MIT, GPL, etc.)
